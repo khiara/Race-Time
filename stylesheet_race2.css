@@ -1,0 +1,123 @@
+body {
+  background-color: green;
+  width: 95%;
+}
+
+h1 {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#banner {
+  text-align: center;
+  border: 20px solid rgb(225,225,20);
+  margin: 10px auto 0px auto;
+  padding: 15px;
+  width: 350px;
+  border-radius: 85px;
+  -moz-border-radius: 85px;
+  -webkit-border-radius: 85px;
+  background-color: rgb(25,200,5);
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#racers {
+  text-align: center;
+  margin: 50px auto 0 auto;
+  font-family: Arial, Verdana, sans-serif;
+  color: rgb(225, 235, 50);
+}
+
+#racers h1 {
+  text-transform: none;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(225, 50, 50);
+}
+
+#animals {
+  width: 75%;
+  margin: 10px auto 20px auto;
+  float: right;
+}
+
+.racer {  
+  display: inline-block;
+}
+
+#rabbit {
+  width: 250px;
+  height: 250px;
+  margin-right: 100px;
+}
+
+#turtle {
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+}
+
+#rabbit:hover {
+  border: 10px solid rgb(20,20,200);
+  border-radius: 65px;
+}
+
+#turtle:hover {
+  border: 10px solid rgb(20,20,200);
+  border-radius: 65px;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+#mainEvent {
+  width: 500px;
+  clear:both;
+  margin: 50px auto;
+}
+
+button {
+  margin: 30px auto 30px auto;
+  text-align: center;
+  border: 10px solid rgb(200,20,20);
+  padding: 10px;
+  border-radius: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+  background-color: rgb(25,200,5);
+  display: block;
+}
+
+#game {
+  font-family: Arial, verdana, sans-serif;
+  font-size: 24px;
+  color: blue;
+}
+
+#results h1 {
+  text-align: center;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 36px;
+  color: rgb(225, 20, 20);
+}
+
+#results p {
+  width: 1200px;
+  margin-left: 150px;
+  text-align: center;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 36px;
+  color: blue;
+}
